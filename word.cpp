@@ -21,7 +21,7 @@ std::string Word::lexeme()
     return _lexeme;
 }
 
-Word* Word::getWord(Tag tag){
+Word* Word::word(Tag tag){
     static std::map<Tag,Word *> words;
     if(words.size() == 0){
         words[AND] = new Word("&&",AND);

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jidong/Documents/projects/cpp_projects/simple_compiler
+# Install script for directory: /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jidong/Documents/projects/cpp_projects/simple_compiler/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

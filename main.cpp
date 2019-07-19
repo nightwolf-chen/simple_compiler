@@ -9,7 +9,8 @@
 using namespace std;
 
 int main(int, char**) {
-    Lexer lex;
+    std::string input = "test";
+    Lexer lex(input);
     Parser parser(lex);
     string code = parser.program();
 

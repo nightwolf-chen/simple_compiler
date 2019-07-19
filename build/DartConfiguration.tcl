@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/jidong/Documents/projects/cpp_projects/simple_compiler
-BuildDirectory: /Users/jidong/Documents/projects/cpp_projects/simple_compiler/build
+SourceDirectory: /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler
+BuildDirectory: /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: MacUserdeMacBook-Pro.local
+Site: JidongdeMacBook-Pro.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-clang++
@@ -20,24 +20,14 @@ BuildName: Darwin-clang++
 LabelsForSubprojects: 
 
 # Submission information
-IsCDash: 
-CDashVersion: 
-QueryCDashVersion: 
-DropSite: 
-DropLocation: 
-DropSiteUser: 
-DropSitePassword: 
-DropSiteMode: 
-DropMethod: http
-TriggerSite: 
-ScpCommand: /usr/bin/scp
+SubmitURL: http://
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/jidong/Documents/projects/cpp_projects/simple_compiler"
-MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/usr/local/Cellar/cmake/3.15.0/bin/cmake" "/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler"
+MakeCommand: /usr/local/Cellar/cmake/3.15.0/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -54,7 +44,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/local/bin/git
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -67,13 +57,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/clang++
-CompilerVersion: 10.0.0.10001145
+CompilerVersion: 10.0.1.10010046
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

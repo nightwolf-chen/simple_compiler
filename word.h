@@ -5,14 +5,14 @@
 #include <string>
 #include <map>
 
-class Word : Token{
+class Word : public Token{
 public:
     Word(std::string , Tag tag);
     ~Word();
     virtual std::string toString();
     std::string lexeme();
 
-    static Word * getWord(Tag tag);
+    static Word * word(Tag tag);
 private:
     std::string _lexeme;
 };

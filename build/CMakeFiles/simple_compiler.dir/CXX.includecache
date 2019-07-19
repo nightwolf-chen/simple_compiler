@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.cpp
+lexer.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
+word.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.h
+type.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
+map
+-
+string
+-
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
+lexer.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
+string
+-
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
+string
+-
+word.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.h
+token.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
+string
+-
+map
+-
+
