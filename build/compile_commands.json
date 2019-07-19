@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/Users/jidong/Documents/projects/cpp_projects/simple_compiler/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/simple_compiler.dir/main.cpp.o -c /Users/jidong/Documents/projects/cpp_projects/simple_compiler/main.cpp",
+  "file": "/Users/jidong/Documents/projects/cpp_projects/simple_compiler/main.cpp"
+},
+
+{
+  "directory": "/Users/jidong/Documents/projects/cpp_projects/simple_compiler/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/simple_compiler.dir/lexer.cpp.o -c /Users/jidong/Documents/projects/cpp_projects/simple_compiler/lexer.cpp",
+  "file": "/Users/jidong/Documents/projects/cpp_projects/simple_compiler/lexer.cpp"
+},
+
+{
+  "directory": "/Users/jidong/Documents/projects/cpp_projects/simple_compiler/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/simple_compiler.dir/parser.cpp.o -c /Users/jidong/Documents/projects/cpp_projects/simple_compiler/parser.cpp",
+  "file": "/Users/jidong/Documents/projects/cpp_projects/simple_compiler/parser.cpp"
+}
+]

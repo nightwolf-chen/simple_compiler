@@ -1,0 +1,10 @@
+# ninja log v5
+0	545	1562638923	CMakeFiles/simple_compiler.dir/main.cpp.o	3b81b470a0e790fb
+546	595	1562638923	simple_compiler	45207c07ae41059b
+2	707	1563422174	CMakeFiles/simple_compiler.dir/main.cpp.o	3b81b470a0e790fb
+2	427	1563422193	CMakeFiles/simple_compiler.dir/main.cpp.o	3b81b470a0e790fb
+427	476	1563422193	simple_compiler	45207c07ae41059b
+2	417	1563422355	CMakeFiles/simple_compiler.dir/main.cpp.o	3b81b470a0e790fb
+2	34	1563422870	CMakeFiles/simple_compiler.dir/lexer.cpp.o	826cfe99ed638bac
+2	251	1563422870	CMakeFiles/simple_compiler.dir/parser.cpp.o	72785aababd588ff
+251	301	1563422870	simple_compiler	732e554c97f689cd
