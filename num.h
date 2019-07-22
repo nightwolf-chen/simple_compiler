@@ -3,7 +3,7 @@
 
 #include "token.h"
 
-class Num : Token{
+class Num : public Token{
 public:
     Num(int val);
     ~Num();

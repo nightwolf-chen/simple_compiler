@@ -57,22 +57,61 @@ include CMakeFiles/simple_compiler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/simple_compiler.dir/flags.make
 
-CMakeFiles/simple_compiler.dir/main.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
-CMakeFiles/simple_compiler.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_compiler.dir/main.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/main.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/main.cpp
+CMakeFiles/simple_compiler.dir/array.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/array.cpp.o: ../array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_compiler.dir/array.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/array.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.cpp
 
-CMakeFiles/simple_compiler.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/main.cpp > CMakeFiles/simple_compiler.dir/main.cpp.i
+CMakeFiles/simple_compiler.dir/array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/array.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.cpp > CMakeFiles/simple_compiler.dir/array.cpp.i
 
-CMakeFiles/simple_compiler.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/main.cpp -o CMakeFiles/simple_compiler.dir/main.cpp.s
+CMakeFiles/simple_compiler.dir/array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/array.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.cpp -o CMakeFiles/simple_compiler.dir/array.cpp.s
+
+CMakeFiles/simple_compiler.dir/env.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/env.cpp.o: ../env.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simple_compiler.dir/env.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/env.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.cpp
+
+CMakeFiles/simple_compiler.dir/env.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/env.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.cpp > CMakeFiles/simple_compiler.dir/env.cpp.i
+
+CMakeFiles/simple_compiler.dir/env.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/env.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.cpp -o CMakeFiles/simple_compiler.dir/env.cpp.s
+
+CMakeFiles/simple_compiler.dir/expr.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/expr.cpp.o: ../expr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/simple_compiler.dir/expr.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/expr.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.cpp
+
+CMakeFiles/simple_compiler.dir/expr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/expr.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.cpp > CMakeFiles/simple_compiler.dir/expr.cpp.i
+
+CMakeFiles/simple_compiler.dir/expr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/expr.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.cpp -o CMakeFiles/simple_compiler.dir/expr.cpp.s
+
+CMakeFiles/simple_compiler.dir/id.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/id.cpp.o: ../id.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/simple_compiler.dir/id.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/id.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.cpp
+
+CMakeFiles/simple_compiler.dir/id.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/id.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.cpp > CMakeFiles/simple_compiler.dir/id.cpp.i
+
+CMakeFiles/simple_compiler.dir/id.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/id.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.cpp -o CMakeFiles/simple_compiler.dir/id.cpp.s
 
 CMakeFiles/simple_compiler.dir/lexer.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
 CMakeFiles/simple_compiler.dir/lexer.cpp.o: ../lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simple_compiler.dir/lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/simple_compiler.dir/lexer.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/lexer.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.cpp
 
 CMakeFiles/simple_compiler.dir/lexer.cpp.i: cmake_force
@@ -83,9 +122,48 @@ CMakeFiles/simple_compiler.dir/lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/lexer.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.cpp -o CMakeFiles/simple_compiler.dir/lexer.cpp.s
 
+CMakeFiles/simple_compiler.dir/main.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/simple_compiler.dir/main.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/main.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/main.cpp
+
+CMakeFiles/simple_compiler.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/main.cpp > CMakeFiles/simple_compiler.dir/main.cpp.i
+
+CMakeFiles/simple_compiler.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/main.cpp -o CMakeFiles/simple_compiler.dir/main.cpp.s
+
+CMakeFiles/simple_compiler.dir/node.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/node.cpp.o: ../node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/simple_compiler.dir/node.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/node.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.cpp
+
+CMakeFiles/simple_compiler.dir/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/node.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.cpp > CMakeFiles/simple_compiler.dir/node.cpp.i
+
+CMakeFiles/simple_compiler.dir/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/node.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.cpp -o CMakeFiles/simple_compiler.dir/node.cpp.s
+
+CMakeFiles/simple_compiler.dir/num.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/num.cpp.o: ../num.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/simple_compiler.dir/num.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/num.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.cpp
+
+CMakeFiles/simple_compiler.dir/num.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/num.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.cpp > CMakeFiles/simple_compiler.dir/num.cpp.i
+
+CMakeFiles/simple_compiler.dir/num.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/num.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.cpp -o CMakeFiles/simple_compiler.dir/num.cpp.s
+
 CMakeFiles/simple_compiler.dir/parser.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
 CMakeFiles/simple_compiler.dir/parser.cpp.o: ../parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/simple_compiler.dir/parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/simple_compiler.dir/parser.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/parser.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.cpp
 
 CMakeFiles/simple_compiler.dir/parser.cpp.i: cmake_force
@@ -96,21 +174,93 @@ CMakeFiles/simple_compiler.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/parser.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.cpp -o CMakeFiles/simple_compiler.dir/parser.cpp.s
 
+CMakeFiles/simple_compiler.dir/real.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/real.cpp.o: ../real.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/simple_compiler.dir/real.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/real.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.cpp
+
+CMakeFiles/simple_compiler.dir/real.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/real.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.cpp > CMakeFiles/simple_compiler.dir/real.cpp.i
+
+CMakeFiles/simple_compiler.dir/real.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/real.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.cpp -o CMakeFiles/simple_compiler.dir/real.cpp.s
+
+CMakeFiles/simple_compiler.dir/token.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/token.cpp.o: ../token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/simple_compiler.dir/token.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/token.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.cpp
+
+CMakeFiles/simple_compiler.dir/token.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/token.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.cpp > CMakeFiles/simple_compiler.dir/token.cpp.i
+
+CMakeFiles/simple_compiler.dir/token.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/token.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.cpp -o CMakeFiles/simple_compiler.dir/token.cpp.s
+
+CMakeFiles/simple_compiler.dir/type.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/type.cpp.o: ../type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/simple_compiler.dir/type.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/type.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.cpp
+
+CMakeFiles/simple_compiler.dir/type.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/type.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.cpp > CMakeFiles/simple_compiler.dir/type.cpp.i
+
+CMakeFiles/simple_compiler.dir/type.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/type.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.cpp -o CMakeFiles/simple_compiler.dir/type.cpp.s
+
+CMakeFiles/simple_compiler.dir/word.cpp.o: CMakeFiles/simple_compiler.dir/flags.make
+CMakeFiles/simple_compiler.dir/word.cpp.o: ../word.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/simple_compiler.dir/word.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_compiler.dir/word.cpp.o -c /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.cpp
+
+CMakeFiles/simple_compiler.dir/word.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_compiler.dir/word.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.cpp > CMakeFiles/simple_compiler.dir/word.cpp.i
+
+CMakeFiles/simple_compiler.dir/word.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_compiler.dir/word.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.cpp -o CMakeFiles/simple_compiler.dir/word.cpp.s
+
 # Object files for target simple_compiler
 simple_compiler_OBJECTS = \
-"CMakeFiles/simple_compiler.dir/main.cpp.o" \
+"CMakeFiles/simple_compiler.dir/array.cpp.o" \
+"CMakeFiles/simple_compiler.dir/env.cpp.o" \
+"CMakeFiles/simple_compiler.dir/expr.cpp.o" \
+"CMakeFiles/simple_compiler.dir/id.cpp.o" \
 "CMakeFiles/simple_compiler.dir/lexer.cpp.o" \
-"CMakeFiles/simple_compiler.dir/parser.cpp.o"
+"CMakeFiles/simple_compiler.dir/main.cpp.o" \
+"CMakeFiles/simple_compiler.dir/node.cpp.o" \
+"CMakeFiles/simple_compiler.dir/num.cpp.o" \
+"CMakeFiles/simple_compiler.dir/parser.cpp.o" \
+"CMakeFiles/simple_compiler.dir/real.cpp.o" \
+"CMakeFiles/simple_compiler.dir/token.cpp.o" \
+"CMakeFiles/simple_compiler.dir/type.cpp.o" \
+"CMakeFiles/simple_compiler.dir/word.cpp.o"
 
 # External object files for target simple_compiler
 simple_compiler_EXTERNAL_OBJECTS =
 
-simple_compiler: CMakeFiles/simple_compiler.dir/main.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/array.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/env.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/expr.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/id.cpp.o
 simple_compiler: CMakeFiles/simple_compiler.dir/lexer.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/main.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/node.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/num.cpp.o
 simple_compiler: CMakeFiles/simple_compiler.dir/parser.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/real.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/token.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/type.cpp.o
+simple_compiler: CMakeFiles/simple_compiler.dir/word.cpp.o
 simple_compiler: CMakeFiles/simple_compiler.dir/build.make
 simple_compiler: CMakeFiles/simple_compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable simple_compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable simple_compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple_compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

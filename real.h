@@ -4,7 +4,7 @@
 #include "token.h"
 #include <string>
 
-class Real : Token{
+class Real : public Token{
 public:
     float value();
     Real(float v);

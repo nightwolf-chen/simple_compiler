@@ -1,6 +1,6 @@
 #include "token.h"
 
-Token::Token(Tag tag){
+Token::Token(int tag){
     _tag = tag;
 }
 
@@ -8,7 +8,7 @@ Token::~Token(){
 
 }
 
-Tag Token::tag(){
+int Token::tag(){
     return _tag;
 }
 

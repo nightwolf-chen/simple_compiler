@@ -3,11 +3,11 @@
 Real::Real(float v)
 : Token(REAL)
 {
-    _val = value;
+    _val = v;
 }
 
 std::string Real::toString()
 {
-    return "" + _val;
+    return "" + std::to_string(_val);
 }
 

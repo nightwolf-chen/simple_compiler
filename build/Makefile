@@ -520,6 +520,114 @@ Experimental/fast:
 	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
+array.o: array.cpp.o
+
+.PHONY : array.o
+
+# target to build an object file
+array.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/array.cpp.o
+.PHONY : array.cpp.o
+
+array.i: array.cpp.i
+
+.PHONY : array.i
+
+# target to preprocess a source file
+array.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/array.cpp.i
+.PHONY : array.cpp.i
+
+array.s: array.cpp.s
+
+.PHONY : array.s
+
+# target to generate assembly for a file
+array.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/array.cpp.s
+.PHONY : array.cpp.s
+
+env.o: env.cpp.o
+
+.PHONY : env.o
+
+# target to build an object file
+env.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/env.cpp.o
+.PHONY : env.cpp.o
+
+env.i: env.cpp.i
+
+.PHONY : env.i
+
+# target to preprocess a source file
+env.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/env.cpp.i
+.PHONY : env.cpp.i
+
+env.s: env.cpp.s
+
+.PHONY : env.s
+
+# target to generate assembly for a file
+env.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/env.cpp.s
+.PHONY : env.cpp.s
+
+expr.o: expr.cpp.o
+
+.PHONY : expr.o
+
+# target to build an object file
+expr.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/expr.cpp.o
+.PHONY : expr.cpp.o
+
+expr.i: expr.cpp.i
+
+.PHONY : expr.i
+
+# target to preprocess a source file
+expr.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/expr.cpp.i
+.PHONY : expr.cpp.i
+
+expr.s: expr.cpp.s
+
+.PHONY : expr.s
+
+# target to generate assembly for a file
+expr.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/expr.cpp.s
+.PHONY : expr.cpp.s
+
+id.o: id.cpp.o
+
+.PHONY : id.o
+
+# target to build an object file
+id.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/id.cpp.o
+.PHONY : id.cpp.o
+
+id.i: id.cpp.i
+
+.PHONY : id.i
+
+# target to preprocess a source file
+id.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/id.cpp.i
+.PHONY : id.cpp.i
+
+id.s: id.cpp.s
+
+.PHONY : id.s
+
+# target to generate assembly for a file
+id.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/id.cpp.s
+.PHONY : id.cpp.s
+
 lexer.o: lexer.cpp.o
 
 .PHONY : lexer.o
@@ -574,6 +682,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+node.o: node.cpp.o
+
+.PHONY : node.o
+
+# target to build an object file
+node.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/node.cpp.o
+.PHONY : node.cpp.o
+
+node.i: node.cpp.i
+
+.PHONY : node.i
+
+# target to preprocess a source file
+node.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/node.cpp.i
+.PHONY : node.cpp.i
+
+node.s: node.cpp.s
+
+.PHONY : node.s
+
+# target to generate assembly for a file
+node.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/node.cpp.s
+.PHONY : node.cpp.s
+
+num.o: num.cpp.o
+
+.PHONY : num.o
+
+# target to build an object file
+num.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/num.cpp.o
+.PHONY : num.cpp.o
+
+num.i: num.cpp.i
+
+.PHONY : num.i
+
+# target to preprocess a source file
+num.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/num.cpp.i
+.PHONY : num.cpp.i
+
+num.s: num.cpp.s
+
+.PHONY : num.s
+
+# target to generate assembly for a file
+num.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/num.cpp.s
+.PHONY : num.cpp.s
+
 parser.o: parser.cpp.o
 
 .PHONY : parser.o
@@ -600,6 +762,114 @@ parser.s: parser.cpp.s
 parser.cpp.s:
 	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/parser.cpp.s
 .PHONY : parser.cpp.s
+
+real.o: real.cpp.o
+
+.PHONY : real.o
+
+# target to build an object file
+real.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/real.cpp.o
+.PHONY : real.cpp.o
+
+real.i: real.cpp.i
+
+.PHONY : real.i
+
+# target to preprocess a source file
+real.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/real.cpp.i
+.PHONY : real.cpp.i
+
+real.s: real.cpp.s
+
+.PHONY : real.s
+
+# target to generate assembly for a file
+real.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/real.cpp.s
+.PHONY : real.cpp.s
+
+token.o: token.cpp.o
+
+.PHONY : token.o
+
+# target to build an object file
+token.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/token.cpp.o
+.PHONY : token.cpp.o
+
+token.i: token.cpp.i
+
+.PHONY : token.i
+
+# target to preprocess a source file
+token.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/token.cpp.i
+.PHONY : token.cpp.i
+
+token.s: token.cpp.s
+
+.PHONY : token.s
+
+# target to generate assembly for a file
+token.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/token.cpp.s
+.PHONY : token.cpp.s
+
+type.o: type.cpp.o
+
+.PHONY : type.o
+
+# target to build an object file
+type.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/type.cpp.o
+.PHONY : type.cpp.o
+
+type.i: type.cpp.i
+
+.PHONY : type.i
+
+# target to preprocess a source file
+type.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/type.cpp.i
+.PHONY : type.cpp.i
+
+type.s: type.cpp.s
+
+.PHONY : type.s
+
+# target to generate assembly for a file
+type.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/type.cpp.s
+.PHONY : type.cpp.s
+
+word.o: word.cpp.o
+
+.PHONY : word.o
+
+# target to build an object file
+word.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/word.cpp.o
+.PHONY : word.cpp.o
+
+word.i: word.cpp.i
+
+.PHONY : word.i
+
+# target to preprocess a source file
+word.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/word.cpp.i
+.PHONY : word.cpp.i
+
+word.s: word.cpp.s
+
+.PHONY : word.s
+
+# target to generate assembly for a file
+word.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_compiler.dir/build.make CMakeFiles/simple_compiler.dir/word.cpp.s
+.PHONY : word.cpp.s
 
 # Help Target
 help:
@@ -641,15 +911,45 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
+	@echo "... array.o"
+	@echo "... array.i"
+	@echo "... array.s"
+	@echo "... env.o"
+	@echo "... env.i"
+	@echo "... env.s"
+	@echo "... expr.o"
+	@echo "... expr.i"
+	@echo "... expr.s"
+	@echo "... id.o"
+	@echo "... id.i"
+	@echo "... id.s"
 	@echo "... lexer.o"
 	@echo "... lexer.i"
 	@echo "... lexer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... node.o"
+	@echo "... node.i"
+	@echo "... node.s"
+	@echo "... num.o"
+	@echo "... num.i"
+	@echo "... num.s"
 	@echo "... parser.o"
 	@echo "... parser.i"
 	@echo "... parser.s"
+	@echo "... real.o"
+	@echo "... real.i"
+	@echo "... real.s"
+	@echo "... token.o"
+	@echo "... token.i"
+	@echo "... token.s"
+	@echo "... type.o"
+	@echo "... type.i"
+	@echo "... type.s"
+	@echo "... word.o"
+	@echo "... word.i"
+	@echo "... word.s"
 .PHONY : help
 
 
