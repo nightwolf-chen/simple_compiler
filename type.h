@@ -13,6 +13,11 @@ public:
     Type(std::string,Tag tag,int width);
     ~Type();
 
+    virtual bool isArray()
+    {
+        return false;
+    }
+
     int width();
 
     static Type * Int(){

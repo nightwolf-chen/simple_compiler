@@ -8,6 +8,9 @@ class Array : public Type{
 public:
     Type *of;
     int size ;
+    bool isArray(){
+        return true;
+    }
     Array(int sz , Type *p);
     ~Array();
     std::string toString();

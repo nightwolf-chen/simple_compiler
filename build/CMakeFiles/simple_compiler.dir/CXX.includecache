@@ -6,6 +6,38 @@
 
 #IncludeRegexTransform: 
 
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.cpp
+array.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.h
+tag.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.h
+type.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
+string
+-
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.cpp
+env.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.h
+id.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.h
+map
+-
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.h
+node.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.h
+type.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.h
+expr.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.h
+
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.cpp
 lexer.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
@@ -26,28 +58,6 @@ string
 tag.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
 
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/main.cpp
-iostream
--
-vector
--
-stack
--
-string
--
-lexer.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
-parser.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.h
-
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.cpp
-node.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.h
-lexer.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
-iostream
--
-
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.h
 string
 -
@@ -55,16 +65,6 @@ string
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.h
 token.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
-
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.cpp
-parser.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.h
-lexer.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
-
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.h
-string
--
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.h
 token.h
@@ -79,6 +79,10 @@ string
 -
 tag.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.cpp
+type.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 string
