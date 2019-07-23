@@ -27,6 +27,8 @@ token.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
 stmt.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/stmt.h
+tag.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.h
 string

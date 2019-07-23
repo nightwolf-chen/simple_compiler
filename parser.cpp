@@ -2,6 +2,7 @@
 #include "lexer.h"
 #include "token.h"
 #include "stmt.h"
+#include "tag.h"
 
 Parser::Parser(Lexer *lex){
     used = 0;
@@ -38,10 +39,29 @@ std::string Parser::program(){
     s->emitlabel(after);
 }
 
-Stmt* Parse::block()
+Stmt* Parser::block()
 {
     match('{'); Env *savedEnv = top; *top = new Env(top);
     decls(); Stmt *s = stmts();
     match('}'); top = savedEnv;
     return s;
+}
+
+void Parser::decls()
+{
+    while( look->tag() == BASIC)
+    {
+        Type *p = type(); Token *tok = look; match(ID);match(';');
+        Id *id = new Id(Word *)tok,p,used);
+        top->put(tok,id);
+        used += p->width();
+    }
+}
+
+Type * Parser::type()
+{
+    Type *p = (Type *)look;
+    match(BASIC);
+    if( look->tag() != '[') return p;
+    else return dims(p);
 }
