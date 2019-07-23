@@ -10,8 +10,7 @@ using namespace std;
 
 int main(int, char**) {
     std::string input = "test";
-    Lexer lex(input);
-    Parser parser(lex);
+    Parser parser(new Lexer(input));
     string code = parser.program();
 
     cout<<code<<endl;

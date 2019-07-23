@@ -4,6 +4,7 @@
 Array::Array(int sz , Type *p)
 :Type("[]",INDEX, sz)
 {
+    _width = sz * p->width();
     size = sz;
     of = p;
 }

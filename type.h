@@ -6,7 +6,7 @@
 
 class Type : public Word
 {
-private:
+protected:
     /* data */
     int _width;
 public:

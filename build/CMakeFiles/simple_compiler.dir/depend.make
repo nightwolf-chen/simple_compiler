@@ -47,9 +47,12 @@ CMakeFiles/simple_compiler.dir/num.cpp.o: ../tag.h
 CMakeFiles/simple_compiler.dir/num.cpp.o: ../token.h
 
 CMakeFiles/simple_compiler.dir/parser.cpp.o: ../lexer.h
+CMakeFiles/simple_compiler.dir/parser.cpp.o: ../node.h
 CMakeFiles/simple_compiler.dir/parser.cpp.o: ../parser.cpp
 CMakeFiles/simple_compiler.dir/parser.cpp.o: ../parser.h
+CMakeFiles/simple_compiler.dir/parser.cpp.o: ../stmt.h
 CMakeFiles/simple_compiler.dir/parser.cpp.o: ../tag.h
+CMakeFiles/simple_compiler.dir/parser.cpp.o: ../token.h
 
 CMakeFiles/simple_compiler.dir/real.cpp.o: ../real.cpp
 CMakeFiles/simple_compiler.dir/real.cpp.o: ../real.h
