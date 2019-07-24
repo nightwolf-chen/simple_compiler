@@ -42,7 +42,6 @@ void Lexer::reserve(Word *w)
 
 void Lexer::readch()
 {
-    //TODO:next
     if(_currentPos < _input.size()){
         peek = _input[_currentPos++];
     }else{
@@ -65,7 +64,6 @@ Token* Lexer::scan()
         else if( peek == '\n') Lexer::line = Lexer::line + 1;
         else break;
     }
-
 
     switch (peek)
     {
