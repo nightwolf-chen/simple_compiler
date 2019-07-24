@@ -28,7 +28,7 @@
 
 Parser::Parser(Lexer *lex){
     used = 0;
-    lex = lex;
+    this->lex = lex;
     move();
 }
 
@@ -64,7 +64,9 @@ void Parser::program(){
 
 Stmt* Parser::block()
 {
-    match('{'); Env *savedEnv = top; *top = new Env(top);
+    match('{');
+    Env *savedEnv = top; 
+    top = new Env(top);
     decls(); Stmt *s = stmts();
     match('}'); top = savedEnv;
     return s;
@@ -171,7 +173,7 @@ Stmt * Parser::assign()
     }else {
         Access *x = offset(id);
         match('=');
-         stmt = new SetElem(x,Bool());
+        stmt = new SetElem(x,Bool());
     }
     match(';');
     return stmt;
@@ -287,6 +289,8 @@ Expr * Parser::factor()
     }
     break;
     case NUM:{
+        x = new Constant(look,Type::Int());
+        move();
         return x;
     }
     break;
@@ -313,10 +317,10 @@ Expr * Parser::factor()
         Id *id = top->get(look);
         if( id == NULL ) {
             error(look->toString() + " undecleared");
-            move();
-            if( look->tag() != '[') return id;
-            else return offset(id);
         }
+        move();
+        if( look->tag() != '[') return id;
+        else return offset(id);
     }
     break;
     

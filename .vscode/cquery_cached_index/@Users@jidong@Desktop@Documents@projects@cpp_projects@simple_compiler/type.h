@@ -21,18 +21,22 @@ public:
     int width();
 
     static Type * Int(){
-        return new Type("int",BASIC,4);
+        static Type *i = new Type("int",BASIC,4);
+        return i;
     }
 
     static Type * Float(){
-        return new Type("float",BASIC,8);
+        static Type * i = new Type("float",BASIC,8);
+        return i;
     }
     static Type * Bool(){
-        return new Type("bool",BASIC,1);
+        static Type * i = new Type("bool",BASIC,1);
+        return i;
     }
 
     static Type * Char(){
-        return new Type("char",BASIC,1);
+        static Type *i = new Type("char",BASIC,1);
+        return i;
     }
 
     static bool numeric(Type *p){

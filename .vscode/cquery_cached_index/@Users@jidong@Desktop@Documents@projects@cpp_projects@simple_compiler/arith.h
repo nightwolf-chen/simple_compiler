@@ -11,6 +11,8 @@ public:
     {
         expr1 = x1;
         expr2 = x2;
+        type = Type::max(expr1->type, expr2->type);
+        if(type == NULL) error("type error");
     }
     ~Arith(){
 

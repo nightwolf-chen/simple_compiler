@@ -37,7 +37,7 @@ Lexer::~Lexer()
 
 void Lexer::reserve(Word *w)
 {
-    words[w->lexeme()] = w;
+    this->words[w->lexeme()] = w;
 }
 
 void Lexer::readch()
