@@ -47,13 +47,40 @@ CMakeFiles/simple_compiler.dir/num.cpp.o
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
 CMakeFiles/simple_compiler.dir/parser.cpp.o
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/access.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/and.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/arith.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/break.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/constant.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/do.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/else.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/if.h
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/logical.h
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/not.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/op.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/or.h
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.cpp
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/rel.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/seq.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/set.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/set_elem.h
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/stmt.h
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/temp.h
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/unary.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/while.h
+ /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.h
 CMakeFiles/simple_compiler.dir/real.cpp.o
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.cpp
  /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.h
