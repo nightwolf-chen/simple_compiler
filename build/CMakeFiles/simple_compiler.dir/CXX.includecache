@@ -26,6 +26,12 @@ logical.h
 op.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/op.h
 
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.cpp
+array.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.h
+tag.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
+
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.h
 type.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
@@ -60,15 +66,25 @@ stmt.h
 type.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.cpp
+env.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.h
+id.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.h
+
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.h
 map
 -
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.cpp
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.h
 node.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.h
 type.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.cpp
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.h
 expr.h
@@ -81,6 +97,18 @@ type.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 expr.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.cpp
+lexer.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
+word.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.h
+type.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
+num.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.h
+real.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.h
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
 map
@@ -98,6 +126,28 @@ string
 temp.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/temp.h
 
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/main.cpp
+iostream
+-
+vector
+-
+stack
+-
+string
+-
+lexer.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
+parser.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/parser.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.cpp
+node.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.h
+lexer.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
+iostream
+-
+
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/node.h
 string
 -
@@ -107,6 +157,10 @@ logical.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/logical.h
 string
 -
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.cpp
+num.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.h
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.h
 token.h
@@ -180,6 +234,10 @@ constant.h
 string
 -
 
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.cpp
+real.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.h
+
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.h
 token.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
@@ -226,11 +284,19 @@ word.h
 string
 -
 
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.cpp
+token.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
+
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/token.h
 string
 -
 tag.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.cpp
+type.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 string
@@ -253,6 +319,10 @@ string
 -
 expr.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.h
+
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.cpp
+word.h
+/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.h
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.h
 token.h

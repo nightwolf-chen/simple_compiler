@@ -8,7 +8,6 @@ public:
     Stmt(){
         after = 0;
     }
-    // ~Stmt();
     static Stmt *Null;
     static Stmt *Enclosing;
     void gen(int b , int a){
