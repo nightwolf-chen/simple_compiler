@@ -10,7 +10,7 @@ public:
     }
     static Stmt *Null;
     static Stmt *Enclosing;
-    void gen(int b , int a){
+    virtual void gen(int b , int a){
 
     };
     int after;

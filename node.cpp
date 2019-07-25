@@ -24,5 +24,5 @@
  }
 
  void Node::emit(std::string s){
-     std::cout<<"\t"<<s<<std::endl;
+     std::cout<<"   "<<s<<std::endl;
  }

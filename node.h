@@ -9,8 +9,8 @@ public:
     ~Node();
     void error(std::string s);
     int newlabel();
-    void emitlabel(int i);
-    void emit(std::string s);
+    virtual void emitlabel(int i);
+    virtual void emit(std::string s);
 protected:
     int lexline;
 };
