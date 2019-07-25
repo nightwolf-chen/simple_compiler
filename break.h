@@ -17,7 +17,7 @@ public:
 
     void gen(int b , int a)
     {
-        emit("goto L " + std::to_string(stmt->after) );
+        emit("goto L" + std::to_string(stmt->after) );
     };
 };
 

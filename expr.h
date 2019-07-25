@@ -26,7 +26,7 @@ public:
         return this;
     }
 
-    std::string toString(){
+    virtual std::string toString(){
         return op->toString();
     }
 

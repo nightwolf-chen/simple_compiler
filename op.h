@@ -2,6 +2,7 @@
 #define __op_h__
 
 #include "expr.h"
+#include "temp.h"
 
 class Token;
 class Type;

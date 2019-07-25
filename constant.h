@@ -28,8 +28,8 @@ public:
     static const Constant *True , *False;
     void jumping(int t , int f)
     {
-        if(this == Constant::True && t != 0) emit("goto L " + std::to_string(t));
-        else if(this == Constant::False && f != 0) emit("goto L " + std::to_string(f));
+        if(this == Constant::True && t != 0) emit("goto L" + std::to_string(t));
+        else if(this == Constant::False && f != 0) emit("goto L" + std::to_string(f));
     }
 };
 

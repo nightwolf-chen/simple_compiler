@@ -13,6 +13,6 @@ int Token::tag(){
 }
 
 std::string Token::toString(){
-    return "todo";
+    return std::string(1,(char)_tag);
 }
 

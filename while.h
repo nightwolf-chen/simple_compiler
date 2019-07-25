@@ -32,8 +32,9 @@ public:
         after = a;
         expr->jumping(0,a);
         int label = newlabel();
-        emitlabel(label); stmt->gen(label,b);
-        emit("goto L " + std::to_string(b));
+        emitlabel(label); 
+        stmt->gen(label,b);
+        emit("goto L" + std::to_string(b));
     }
 };
 

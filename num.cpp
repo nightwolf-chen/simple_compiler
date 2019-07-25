@@ -1,5 +1,6 @@
 
 #include "num.h"
+#include <string>
 
 Num::Num(int val)
 :Token(NUM){
@@ -7,5 +8,5 @@ Num::Num(int val)
 }
 
 std::string Num::toString(){
-    return "todo";
+    return std::to_string(_value);
 }

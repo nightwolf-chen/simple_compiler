@@ -17,7 +17,6 @@ public:
         expr1 = x1;
         expr2 = x2;
         type = check(expr1->type,expr2->type);
-        // if(type == NULL) error("type eroor");
     }
 
     virtual Type *check(Type *p1 , Type *p2)
@@ -35,7 +34,7 @@ public:
         this->jumping(0,f);
         Temp *temp = new Temp(type);
         emit(temp->toString()+" = true");
-        emit("goto L " + std::to_string(a));
+        emit("goto L" + std::to_string(a));
         emitlabel(f);
         emit(temp->toString() + " = false");
         emitlabel(a);
