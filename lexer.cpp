@@ -50,8 +50,8 @@ void Lexer::readch()
         peek = EOF;
     }
 
-    std::cout<<"Current Char:";
-    std::cout<<peek<<std::endl;
+    // std::cout<<"Current Char:";
+    // std::cout<<peek<<std::endl;
 
 }
 
