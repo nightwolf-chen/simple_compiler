@@ -20,7 +20,7 @@ public:
         if(type == NULL) error("type eroor");
     }
 
-    Type *check(Type *p1 , Type *p2)
+    virtual Type *check(Type *p1 , Type *p2)
     {
         if(p1 == Type::Bool() && p2 == Type::Bool()){
             return Type::Bool();

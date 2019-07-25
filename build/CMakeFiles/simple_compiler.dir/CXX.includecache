@@ -26,12 +26,6 @@ logical.h
 op.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/op.h
 
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.cpp
-array.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.h
-tag.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
-
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/array.h
 type.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
@@ -66,12 +60,6 @@ stmt.h
 type.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.cpp
-env.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.h
-id.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/id.h
-
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/env.h
 map
 -
@@ -93,18 +81,6 @@ type.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 expr.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/expr.h
-
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.cpp
-lexer.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
-word.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/word.h
-type.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
-num.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/num.h
-real.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/real.h
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/lexer.h
 map
@@ -255,10 +231,6 @@ string
 -
 tag.h
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/tag.h
-
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.cpp
-type.h
-/Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 
 /Users/jidong/Desktop/Documents/projects/cpp_projects/simple_compiler/type.h
 string
