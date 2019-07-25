@@ -52,14 +52,14 @@ void Parser::match(int t)
     else error("syntax error");
 }
 
-void Parser::program(){
+void Parser::program()
+{
     Stmt *s = block();
     int begin = s->newlabel();
     int after = s->newlabel();
     s->emitlabel(begin);
     s->gen(begin,after);
     s->emitlabel(after);
-
 }
 
 Stmt* Parser::block()
@@ -93,7 +93,9 @@ Type * Parser::type()
 
 Type * Parser::dims(Type *p)
 {
-    match('['); Token *tok = look; match(NUM); match(']');
+    match('['); 
+    Token *tok = look; 
+    match(NUM); match(']');
     if( look->tag() == '[' )
     {
         p = dims(p);
