@@ -27,7 +27,7 @@ public:
         int label1 = newlabel();
         int label2 = newlabel();
         expr->jumping(0,label2);
-        emitlabel(label1); stmt1->gen(label1,a); emit("goto L" + std::to_string(0));
+        emitlabel(label1); stmt1->gen(label1,a); emit("goto L" + std::to_string(a));
         emitlabel(label2); stmt2->gen(label2,a);
     }
 };
