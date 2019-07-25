@@ -120,7 +120,7 @@ Stmt * Parser::stmt()
             return Stmt::Null;
         }
         case IF:{
-            match(IF); match('{'); x = Bool() ; match('}');
+            match(IF); match('('); x = Bool() ; match(')');
             s1 = stmt();
             if( look->tag() != ELSE ) return new If(x,s1);
             s2 = stmt();

@@ -4,6 +4,8 @@
 #include "num.h"
 #include "real.h"
 
+#include <iostream>
+
 int Lexer::line = 1;
 
 Lexer::Lexer(std::string input){
@@ -47,6 +49,8 @@ void Lexer::readch()
     }else{
         peek = EOF;
     }
+
+    std::cout<<peek;
 }
 
 bool Lexer::readch(char c)

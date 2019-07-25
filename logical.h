@@ -17,7 +17,7 @@ public:
         expr1 = x1;
         expr2 = x2;
         type = check(expr1->type,expr2->type);
-        if(type == NULL) error("type eroor");
+        // if(type == NULL) error("type eroor");
     }
 
     virtual Type *check(Type *p1 , Type *p2)

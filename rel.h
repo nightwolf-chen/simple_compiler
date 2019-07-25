@@ -5,10 +5,11 @@
 
 class Rel : public Logical{
 public:
-    Rel(Token *tok , Expr *x1 , Expr *x2):Logical(tok,x1,x2){
-
+    Rel(Token *tok , Expr *x1 , Expr *x2)
+    :Logical(tok,x1,x2){
+        type = check(expr1->type,expr2->type);
     };
-    Type *check(Type *p1 , Type *p2)
+    virtual Type *check(Type *p1 , Type *p2)
     {
         if(p1->isArray() || p2->isArray()){
             return NULL;
